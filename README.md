@@ -8,6 +8,17 @@
 
 ## Installation
 
+```bash
+git clone https://github.com/reggiepy/go_proxy.git
+cd go_proxy
+go mod tidy
+```
+
 ## Usage
+
+```bash
+go run cmd/client/main.go
+go run cmd/server/main.go
+```
 
 ## Architecture
